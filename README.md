@@ -7,7 +7,7 @@ Welcome to the **Cursor Rules** repository! This project is a collection of `.cu
 The repository is organized as follows:
 
 ```
-/cursor-rules/
+/cursorrules-examples/
 │-- generic/.cursorrules   # General best practices applicable to all programming
 │-- vue3/.cursorrules       # Rules specifically for Vue 3 projects
 │-- react/.cursorrules      # Rules specifically for React projects
