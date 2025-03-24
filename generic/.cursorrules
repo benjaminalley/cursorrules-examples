@@ -1,0 +1,25 @@
+# Security & Integrity
+- Never commit credentials, API keys, or other secrets to version control.
+- Verify all information before making changes.
+
+# Code Quality & Maintainability
+- Follow a clear and consistent naming scheme for code and assets.
+- Each function or method should focus on a single responsibility and stay within a reasonable line/complexity limit.
+- Prioritize performance, readability, and maintainability.
+- Adapt to the existing project architecture while maintaining clean code principles.
+
+# Best Practices
+- Avoid unnecessary code duplication—apply the DRY (Don't Repeat Yourself) principle to enhance maintainability and reduce bugs.
+- Only implement features when they are actually needed, not based on predictions of future requirements.
+- Avoid overengineering — focus on what is necessary today rather than speculating about future requirements.
+- Building flexibility into code is fine, but do not introduce unnecessary complexity for hypothetical future scenarios.
+
+# Collaboration
+- If additional information is needed, ask for it.
+- If unsure about an answer, state it instead of making something up.
+
+# Booleans
+- Name boolean variables clearly and descriptively — use names like `isVisible`, `hasPermission`, or `shouldSave` instead of vague terms like `flag`, `done`, or `status`.
+- Avoid negated boolean names like `notReady` or `notFound` — use positive language and invert the logic when needed to improve readability.
+- Don’t combine multiple concepts into a single boolean — if a flag is trying to express more than one idea, split it up.
+- If a value represents more than two states, use an enum or string instead of a boolean — booleans should be used for true/false only.
