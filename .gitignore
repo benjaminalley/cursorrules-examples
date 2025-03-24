@@ -1,0 +1,39 @@
+# macOS system files
+.DS_Store
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs (WebStorm, IntelliJ, PhpStorm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Neovim
+*.swp
+*.swo
+*.un~
+
+# Emacs
+*~
+
+# Eclipse
+.project
+.classpath
+.c9/
+
+# Other common editors
+*.code-workspace
+
+# Logs
+*.log
+
+# Node / general dev noise
+node_modules/
+dist/
+build/
+.env
+.env.*
