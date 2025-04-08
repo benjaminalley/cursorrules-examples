@@ -13,6 +13,7 @@
 - Only implement features when they are actually needed, not based on predictions of future requirements.
 - Avoid overengineering — focus on what is necessary today rather than speculating about future requirements.
 - Building flexibility into code is fine, but do not introduce unnecessary complexity for hypothetical future scenarios.
+- If a solution is becoming overly complex or patchy, pause to consider if a simpler or alternative approach would be better.
 
 # Collaboration
 - If additional information is needed, ask for it.
